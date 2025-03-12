@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    ptintf("hello word");
+    return 0;
+    
+}

@@ -12,7 +12,7 @@ int main() {
      scanf("%d", codigo);
 
      printf("brasilia: ");
-     scanf(" %49[^\n]", nome);
+     scanf("%49[^\n]", nome);
 
      printf("polulaçao: ")
      scanf("%ldd", &populacao);
