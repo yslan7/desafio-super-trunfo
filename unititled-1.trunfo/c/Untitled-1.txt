@@ -1,0 +1,8 @@
+void moverBispo(int cima, int direita) {
+    // 5x cima direita
+    for (int i = 0; i < cima; i++) {
+        for (int j = 0; j < direita; j++) {
+            printf("Cima\tDireita\n");
+        }
+    }
+}
