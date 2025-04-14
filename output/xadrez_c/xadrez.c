@@ -21,7 +21,7 @@ void moverBispo(int casas, const char *direcaoVertical, const char *direcaoHoriz
     moverBispo(casas - 1, direcaoVertical, direcaoHorizontal);
 }
 
-// função para mober o Bispo com loops aninhados
+// função para mover o Bispo com loops aninhados
 void moverBispoloops(int casas) {
     for (int v = 1; v <= casas; v++) {
         for (int h = 1; h <= casas; h++) {
